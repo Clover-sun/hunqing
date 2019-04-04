@@ -1,0 +1,83 @@
+
+.danmu_box{
+    width:80%;
+    height:34px;
+    position:absolute;
+    top:560px;
+    left:6%;
+    border:1px solid black;
+    border-radius:9px;
+    padding:3px;
+    background:white;
+}
+.form-control {
+    display:block;
+    float:left;
+    width:75%;
+    padding:6px 12px;
+    font-size:16px;
+    text-align:center;
+    line-height: 1.42857143;
+    color:#D4D4D4;
+    border:none;
+    outline:none;
+    transition: border-color ease-in-out .15s,
+    box-shadow ease-in-out .15s;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color:#D4D4D4;
+    font-size: 16px;
+}
+.btn {
+    float:left;
+    font-size:20px;
+    width:10%;
+    color:black;
+    line-height:1.5;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select:none;
+    border-left:3px solid silver;
+}
+#submit{
+    color:black;
+}
+
+
+/*组件主样式*/
+.overflow-text {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    opacity: 0;
+    clear: both;
+    padding:10px 20px;
+    border-radius:30px;
+    box-sizing: border-box;
+    max-width: 100%;
+    color: #fff;
+    animation: colorchange 3s infinite alternate;
+    -webkit-animation: colorchange 3s infinite alternate;
+}
+
+@keyframes colorchange {
+    0% {
+        color:white;
+    }
+
+    50% {
+        color: white;
+    }
+
+    100% {
+        color:white;
+    }
+}

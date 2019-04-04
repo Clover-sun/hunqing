@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/static/admin/javascript/jquery.js"></script>
+</head>
+<style>
+    .a{
+        width: 480px;
+        height: 600px;
+        /*background-color: red;*/
+        float:left;
+        margin:0 2%;
+    }
+    .b{
+        width: 48%;
+        height: auto;
+        background-color:cornflowerblue;
+        float:left;
+    }
+
+
+</style>
+<body>
+
+<div class="a" name="{$id}">
+<!--<div class="a">-->
+<!--1231232323121-->
+</div>
+<div class="b">
+   456
+</div>
+</body>
+<script src="/static/admin/javascript/plug-ins/layerUi/layer.js"></script>
+<script>
+    //弹出模板层
+    var id = $('.a').attr('name');
+    $.ajax({
+        url:'/temp/see',
+        type:'get',
+        data:{id:id},
+        success:function (data) {
+            // console.log (data);
+            // return false
+            $('.a').html(data)
+        }
+    });
+
+
+
+</script>
+</html>

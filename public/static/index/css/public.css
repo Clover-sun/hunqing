@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: white;
+}
+#header{
+    width:1200px;
+    height:100px;
+    background:#416482;
+}
+/*logo*/
+#header .logo{
+    width:25%;
+    height: 100%;
+    margin-left:5%;
+    float: left;
+    overflow: hidden;
+    background: #C6A16B;
+
+}
+/*logo大小500px*100px*/
+#header .logo img{
+    width:100%;
+    height:100px;
+}
+/*导航栏*/
+#header .nav_list{
+    width:70%;
+    height:100%;
+    float:left;
+}
+#header .nav_list li{
+    width:18%;
+    height:100%;
+    text-align: center;
+    float: left;
+    color: white;
+}
+#header .nav_list li a{
+    color: white;
+    text-decoration: none;
+}
+#header .nav_list li:hover{
+    background: #b28b51;
+}
+
+#header .nav_list li p{
+    width: 100%;
+    height:70px;
+    line-height:70px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#header .nav_list li span{
+    width: 100%;
+    height:30px;
+    line-height:30px;
+    text-align: center;
+    font-size: 25px;
+}

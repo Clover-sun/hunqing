@@ -1,0 +1,96 @@
+{extend name="AdminPublic:public"}
+{block name="title"}模板管理{/block}
+{block name="aa"}
+
+<div class="panel panel-default">
+    <div class="panel-bd">
+        <div class="panel panel-primary">
+            <div class="panel-hd"></div>
+            <div class="panel-bd">
+                <section class="page-hd">
+                    <header>
+                        <h2 class="title">{$cates}模板</h2>
+                        <input type="hidden" id="sid" name="sid" value="{$sid}">
+                        <input type="hidden" id="fid" name="fid" value="{$fid}">
+                        <!--<td id="sid">商户id:{$sid}</td>-->
+
+                        <!--<td>模板分类id:{$fid}</td>-->
+
+                    </header>
+                    <hr>
+                </section>
+
+                <table class="table table-bordered table-striped mb-15">
+                    <thead>
+                    <tr>
+                        <th>id</th>
+                        <th>模板封面</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {volist name="list" id="vo"}
+                    <tr class="cen">
+
+
+                        <td><input type="checkbox" name="title" id="{$vo.id}"  {if condition="in_array($vo.id,$moban)"}checked{/if}></td>
+
+
+
+                        <!--<td><input type="checkbox" name="title" id="{$vo.id}"></td>-->
+
+                        <td><img src="{$vo.img}" width="100px" height="100px"></td>
+                        <td>
+                            <a href="{$vo.file}" title="编辑" class="mr-5">查看</a>
+                        </td>
+                    </tr>
+                    {/volist}
+                    </tbody>
+                </table>
+                <button class="btn btn-info radius" id="btnOperate" onclick="static_num()">确认选择</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    //复选框点击事件
+    function static_num() {
+        // document.getElementById("btnOperate").onclick = function () {
+        var sid = $("#sid").val();
+        var fid = $("#fid").val();
+        var arr = new Array();
+        var items = document.getElementsByName("title");
+        for (i = 0; i < items.length; i++) {
+            if (items[i].checked) {
+                arr.push(items[i].id);
+            }
+        }
+
+        if (arr == '') {
+            layer.msg('请选择模板');
+            return false;
+        }
+
+        // alert(id);
+        // alert("选择为：" + arr);
+        $.ajax({
+            url: '/edit/inset',
+            type: 'get',
+            data: {id: arr, sid: sid, fid: fid},
+            success: function (data) {
+
+                alert(data);
+                location.href='/tenant/index';
+            },
+            error: function (e) {
+                // alert(e);
+            },
+        })
+        // };
+
+    };
+
+
+</script>
+
+{/block}

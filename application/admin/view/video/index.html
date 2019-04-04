@@ -1,0 +1,130 @@
+{extend name="AdminPublic:public"}
+{block name="title"}视频管理{/block}
+{block name="aa"}
+
+<div class="panel panel-default">
+    <div class="panel-bd">
+        <div class="panel panel-primary">
+            <div class="panel-hd"></div>
+            <div class="panel-bd">
+
+                <section class="page-hd">
+                    <header>
+                        <h2 class="title">视频列表</h2>
+                        <p class="title-description">
+                            <button class="btn btn-warning add">添加视频</button>
+                        </p>
+                    </header>
+                    <hr>
+                </section>
+
+
+                <table class="table table-bordered table-striped mb-15">
+                    <thead>
+                        <tr>
+                            <th>id</th>
+                            <th>分类</th>
+                            <th>标题</th>
+                            <th>封面</th>
+                            <th>视频</th>
+                            <th>操作</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {foreach name="info" item="row"}
+                        <tr class="cen">
+                            <td>{$row['id']}</td>
+                            <td>{$row['fid']}</td>
+                            <td class="lt cen"><a>{$row['cten']}</a></td>
+                            <td>
+                                <img style="width: 100px;height: 100px;" src="{$row['pic']}" alt="">
+                            </td>
+                            <td>
+                                <video width="320" height="200" controls>
+                                        <source src="{$row['vde']}" type="video/mp4">
+                                </video>
+                            </td>
+
+                            <td>
+                                <button class="btn btn-primary edit" name="{$row['id']}">编辑</button>
+                                <button class="btn btn-warning del" name="{$row['id']}">删除</button>
+                            </td>
+                        </tr>
+                        {/foreach}
+                    </tbody>
+                </table>
+                <div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    //添加视频
+    $('.add').click(function () {
+        $.get('/video/add', {}, function (data) {
+            layer.open({
+                type: 1,
+                title: '添加视频',
+                shadeClose: true,//点击阴影处关闭
+                skin: 'layui-layer-demo', //加上边框
+                area: ['600px', '600px'], //宽高
+                content: data
+            });
+
+        });
+    });
+
+    //修改
+    $('.edit').click(function () {
+        //获取修改的id
+        var id = $(this).attr('name');
+
+        $.ajax({
+            url: '/video/edit',
+            type: 'get',
+            data: { id, id },
+            success: function (data) {
+
+                layer.open({
+                    type: 1,
+                    title: '视频修改',
+                    skin: 'layui-layer-demo', //加上边框
+                    area: ['600px', '700px'], //宽高
+                    content: data
+                });
+            },
+            error: function (e) {
+                console.log(e);
+            }
+        });
+    });
+
+
+    $(".del").click(function () {
+
+        // 获取id
+        var id = $(this).attr('name');
+        // 获取本条tr
+        ss = $(this).parents('tr');
+
+        layer.confirm('你确定要删除吗', ['删除', '取消'], function () {
+            $.get('/video/delete', { id: id }, function (data) {
+
+                if (data.code == 200) {
+                    ss.remove();
+                    layer.msg(data.message, { icon: 6 });
+                }
+
+                if (data.code == 201) {
+
+                    layer.msg(data.message, { icon: 5 });
+                }
+            })
+        });
+    });
+
+</script>
+
+{/block}

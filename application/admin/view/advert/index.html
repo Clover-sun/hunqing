@@ -1,0 +1,81 @@
+{extend name="AdminPublic:public"}
+{block name="title"}客服管理{/block}
+{block name="aa"}
+
+<div class="panel panel-default">
+    <div class="panel-bd">
+        <div class="panel panel-primary">
+            <div class="panel-hd"></div>
+            <div class="panel-bd">
+
+                <section class="page-hd">
+                    <header>
+                        <h2 class="title">公告列表</h2>
+                    </header>
+                    <hr>
+                </section>
+
+
+                <table class="table table-bordered table-striped mb-15">
+                    <thead>
+                        <tr>
+                            <th>广告图</th>
+                            <th>客服QQ</th>
+                            <th>客服微信</th>
+                            <th>客服电话</th>
+                            <th>操作</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr class="cen">
+                            <td>
+                                <img style="width: 100px;height: 100px;" src="{$row['pic']}" alt="">
+                            </td>
+                            <td>{$row['qq']}</td>
+                            <td class="lt cen"><a>{$row['weixin']}</a></td>
+                            <td>{$row['phone']}</td>
+
+                            <td>
+                                <button class="btn btn-primary edit" name="{$row['id']}">编辑</button>
+                            </td>
+
+                    </tbody>
+                </table>
+                <div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+
+    //修改
+    $('.edit').click(function () {
+        //获取修改的id
+        var id = $(this).attr('name');
+
+        $.ajax({
+            url: '/advert/edit',
+            type: 'get',
+            data: { id, id },
+            success: function (data) {
+
+                layer.open({
+                    type: 1,
+                    title: '分类修改',
+                    skin: 'layui-layer-demo', //加上边框
+                    area: ['600px', '700px'], //宽高
+                    content: data
+                });
+            },
+            error: function (e) {
+                console.log(e);
+            }
+        });
+    });
+
+</script>
+
+{/block}

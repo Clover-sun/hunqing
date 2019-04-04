@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>设置</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=0">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+	<style>
+        body {
+            background: #F3F4F6;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        em, i {
+            font-style: normal;
+        }
+
+        b {
+            font-weight: 100;
+            color: #C0C2C1;
+        }
+
+        .title {
+            color: white;
+            background: red;
+            padding: 10px 0;
+            text-align: center;
+            font-size: 16px;
+        }
+
+        .title img {
+            width: 26px;
+            height: 26px;
+            position: absolute;
+            left: 3%;
+        }
+
+        /*开关*/
+        .chooseBtn {
+            display: none;
+        }
+
+        .choose-label {
+            box-shadow: #ccc 0px 0px 0px 1px;
+            width: 40px;
+            height: 20px;
+            display: inline-block;
+            border-radius: 20px;
+            position: relative;
+            background-color: #bdbdbd;
+            overflow: hidden;
+        }
+
+        .choose-label:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+            border-radius: 20px;
+            background-color: #fff;
+            z-index: 20;
+            -webkit-transition: all 0.5s;
+            transition: all 0.5s;
+        }
+
+        .chooseBtn:checked + label.choose-label:before {
+            left: 20px;
+        }
+
+        .chooseBtn:checked + label.choose-label {
+            background-color: #51ccee;
+        }
+
+        i {
+            color: silver;
+        }
+
+        ul {
+            width: 100%;
+
+        }
+
+        li {
+            width: 96%;
+            height: 30px;
+            padding: 2%;
+            background: white;
+            margin-bottom: 10px;
+        }
+
+        li > span {
+            width: 20%;
+            line-height: 30px;
+            float: left;
+        }
+
+        li>div {
+            width: 70%;
+            height: 100%;
+            float: right;
+            text-align: right;
+        }
+        li>em{
+            float: right;
+        }
+        p {
+            border-bottom: 1px solid silver;
+            width: 100%;
+            height: 20px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="title">
+    <a href="javascript:window.history.back(-1)" target="_self">
+        <img src="../img/leftarrow2.png" alt="">
+    </a>设置
+</div>
+<ul>
+    <li>
+        <span>基本信息</span>
+        <div class="amend"><b>修改</b><i> > </i></div>
+    </li>
+
+    <li>
+
+        <span>弹幕</span>
+        <em>
+            <input type="checkbox" name="sex" id="male" class="chooseBtn"/>
+            <label for="male" class="choose-label"></label>
+        </em>
+
+    </li>
+
+
+</ul>
+
+</body>
+<script src="../js/jquery-1.10.1.min.js"></script>
+
+<script>
+    $(function () {
+        // 修改
+        $(".amend").click(function () {
+            window.location.href = "card_message.html"
+        })
+    })
+
+</script>
+</html>

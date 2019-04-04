@@ -1,0 +1,57 @@
+{extend name="AdminPublic:public"}
+{block name="title"}模板管理{/block}
+{block name="aa"}
+<style>
+    #xmTanImg {
+        width: 100px;
+        height: 100px;
+
+    }
+</style>
+<div class="panel panel-default">
+    <div class="panel-bd">
+        <div class="panel panel-primary">
+            <div class="panel-hd"></div>
+            <div class="panel-bd">
+                <div class="page-wrap">
+                    <section class="page-hd">
+                        <header>
+                            <h2 class="title">登录编辑</h2>
+                        </header>
+                        <hr>
+                    </section>
+
+                    <form id="formData" method="post" enctype="multipart/form-data" action="/logo/update">
+
+                        <div class="form-group-col-2">
+                            <div class="form-label">商家登录背景图片:</div>
+                            <div>
+                                <p>
+                                    <input type="file" id="xdaTanFileImg" name="img"  onchange="xmTanUploadImg(this)"  />
+
+                                </p>
+                                <!--<img id="xmTanImg" />-->
+                                <div id="xmTanDiv"></div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="form-group-col-2">
+                            <div class="form-label"></div>
+                            <div class="form-cont">
+
+                                <input type="submit" class="btn btn-primary" id="submit" value="提交表单" />
+
+                            </div>
+                        </div>
+                        <!--开始::结束-->
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{/block}

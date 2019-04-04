@@ -1,0 +1,368 @@
+{extend name="AdminPublic:public"}
+{block name="title"}商户管理{/block}
+{block name="aa"}
+
+<style>
+    ul.pagination {
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+    }
+
+    ul.pagination li {
+        display: inline;
+    }
+
+
+    .bar1 input {
+        border: 1px solid rgb(240, 240, 245);
+        width: 90%;
+        height: 35px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+</style>
+<div class="panel panel-default">
+    <div class="panel-bd">
+        <div class="panel panel-primary">
+            <div class="panel-hd"></div>
+            <div class="panel-bd">
+
+                <section class="page-hd">
+                    <header>
+                        <h2 class="title">商户管理</h2>
+                        <p class="title-description">
+                            <button class="btn btn-warning add">添加商户</button>
+
+                        </p>
+                    </header>
+                    <hr>
+                </section>
+
+                <div class="search bar1">
+                    <form action="/tenant/index" method="get">
+                        <input type="text" placeholder="请输入商户名" name="k" value="{$k}">
+                        <button type="submit" class="btn btn-primary-outline xx">搜索</button>
+                    </form>
+                </div>
+
+                <table class="table table-bordered table-striped mb-15" id="tableExcel">
+                    <thead>
+                        <tr>
+                            <th>id</th>
+                            <th>商户名</th>
+                            <th>商户logo</th>
+                            <th>商户地址</th>
+                            <th>联系电话</th>
+                            <th>服务类型</th>
+                            <th>服务状态</th>
+                            <th>尾页广告</th>
+                            <th>弹窗广告</th>
+                            <th>商户状态</th>
+                            <th>操作</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {foreach name="data" item="val"}
+                        <tr class="cen">
+                            <td>{$val['id']}</td>
+                            <td class="lt cen"><a>{$val['name']}</a></td>
+                            <td><img src="{$val['logo']}" style="width: 100px;height: 100px;"></td>
+                            <td>{$val['ress']}</td>
+                            <td>{$val['phone']}</td>
+                            <td>{$val['cet']==1?'包年':'VIP'}</td>
+                            <td>{$val['cetval']==''?$val['cetvas']."次":$val['cetval']."天"}</td>
+                            <td>
+                                <a class="pag" name="{$val['id']}">
+                                {$val['pag']==1?'<p style="color: #6495ED">开启</p>':'<p style="color: red">禁用</p>'}
+                                </a>
+                            </td>
+                            <td>
+                                <a class="ale" name="{$val['id']}">
+                                {$val['ale']==1?'<p style="color: #6495ED">开启</p>':'<p style="color: red">禁用</p>'}
+                                </a>
+                            </td>
+                            <td>
+                                <a class="jins" name="{$val['id']}">
+                                {$val['static']==1?'<p style="color: #6495ED">正常</p>':'<p style="color: red">禁用</p>'}
+                                </a>
+                            </td>
+                            <td>
+                                <button class="btn btn-primary fen" name="{$val['id']}">分配</button>
+                                <button class="btn btn-primary logo" name="{$val['id']}">logo</button>
+                                <button class="btn btn-primary pas" name="{$val['id']}">密码</button>
+                                <button class="btn btn-warning xfei" name="{$val['id']}">续费</button>
+                                <button class="btn btn-warning del" name="{$val['id']}">删除</button>
+
+                            </td>
+                        </tr>
+                        {/foreach}
+                    </tbody>
+                </table>
+                <div>
+                    {$page}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+
+    //删除
+    $(".del").click(function () {
+
+        // 获取id
+        var sid = $(this).attr('name');
+        // 获取本条tr
+        ss = $(this).parents('tr');
+
+        layer.confirm('你确定要删除吗', ['删除', '取消'], function () {
+            $.get('/tenant/delete', { sid: sid }, function (data) {
+
+                if (data.code == 200) {
+                    ss.remove();
+                    layer.msg(data.message, { icon: 6 });
+                }
+
+                if (data.code == 201) {
+                                      
+                    layer.msg(data.message, { icon: 5 });
+                }
+            })
+        });
+    });
+
+    //添加商户
+    $('.add').click(function () {
+        $.get('/tenant/add', {}, function (data) {
+            layer.open({
+                type: 1,
+                title: '添加商户',
+                shadeClose: true,//点击阴影处关闭
+                skin: 'layui-layer-demo', //加上边框
+                area: ['800px', '900px'], //宽高
+                content: data
+            });
+
+        });
+    });
+
+    //修改logo
+    $('.logo').click(function () {
+        // alert(1111);
+        //获取id
+        var id = $(this).attr('name');
+        // alert(id);
+        $.ajax({
+            url: '/teds/logo',
+            typr: 'get',
+            data: { id: id },
+            success: function (data) {
+                layer.open({
+                    type: 1,
+                    title: '更换logo',
+                    skin: 'layui-layer-demo', //加上边框
+                    area: ['550px', '600px'], //宽高
+                    content: data
+                })
+                // console.log(data);
+            },
+            error: function (e) {
+                console.log(e);
+            }
+
+        })
+    });
+
+    //修改商户密码
+    $('.pas').click(function () {
+        // alert(1111);
+        //获取id
+        var id = $(this).attr('name');
+        // alert(id);
+        $.ajax({
+            url: '/teds/pas',
+            typr: 'get',
+            data: { id: id },
+            success: function (data) {
+                layer.open({
+                    type: 1,
+                    title: '修改密码',
+                    skin: 'layui-layer-demo', //加上边框
+                    area: ['550px', '450px'], //宽高
+                    content: data
+                })
+                // console.log(data);
+            },
+            error: function (e) {
+                console.log(e);
+            }
+
+        })
+    });
+
+    //续费
+    $('.xfei').click(function () {
+        // alert(1111);
+        //获取id
+        var id = $(this).attr('name');
+        // alert(id);
+        $.ajax({
+            url: '/teds/xu',
+            typr: 'get',
+            data: { id: id },
+            success: function (data) {
+                layer.open({
+                    type: 1,
+                    title: '商户续费',
+                    skin: 'layui-layer-demo', //加上边框
+                    area: ['550px', '450px'], //宽高
+                    content: data
+                })
+                // console.log(data);
+            },
+            error: function (e) {
+                console.log(e);
+            }
+
+        })
+    });
+
+    //尾页广告
+    $('.pag').click(function () {
+        // alert(1111);
+        //获取id
+        var id = $(this).attr('name');
+        // alert(id);
+        layer.confirm('请确认该操作', ['确认', '取消'], function () {
+            $.ajax({
+                url: '/teds/pag',
+                typr: 'get',
+                data: { id: id },
+                success: function (data) {
+                    if (data.code == 200) {
+                        layer.msg(data.msg, { icon: 6, time: 900 });
+                        // location.href = '/adminuser/index';
+                        setTimeout("location.href='/tenant/index';", 1000);
+                    }
+
+                    if (data.code == 400) {
+                        layer.msg(data.msg, { icon: 5 });
+                    }
+
+                    if (data.code == 201) {
+                        layer.msg(data.msg, { icon: 5 });
+                    }
+                },
+                error: function (e) {
+                    console.log(e);
+                }
+
+            })
+        })
+    });
+
+
+    //弹窗广告
+    $('.ale').click(function () {
+        // alert(1111);
+        //获取id
+        var id = $(this).attr('name');
+        // alert(id);
+        layer.confirm('请确认该操作', ['确认', '取消'], function () {
+            $.ajax({
+                url: '/teds/ale',
+                typr: 'get',
+                data: { id: id },
+                success: function (data) {
+                    if (data.code == 200) {
+                        layer.msg(data.msg, { icon: 6, time: 900 });
+                        // location.href = '/adminuser/index';
+                        setTimeout("location.href='/tenant/index';", 1000);
+                    }
+
+                    if (data.code == 400) {
+                        layer.msg(data.msg, { icon: 5 });
+                    }
+
+                    if (data.code == 201) {
+                        layer.msg(data.msg, { icon: 5 });
+                    }
+                },
+                error: function (e) {
+                    console.log(e);
+                }
+
+            })
+        })
+    });
+
+
+    //状态
+    $('.jins').click(function () {
+        // alert(1111);
+        //获取id
+        var id = $(this).attr('name');
+        // alert(id);
+        layer.confirm('请确认该操作', ['确认', '取消'], function () {
+            $.ajax({
+                url: '/teds/jins',
+                typr: 'get',
+                data: { id: id },
+                success: function (data) {
+                    if (data.code == 200) {
+                        layer.msg(data.msg, { icon: 6, time: 900 });
+                        // location.href = '/adminuser/index';
+                        setTimeout("location.href='/tenant/index';", 1000);
+                    }
+
+                    if (data.code == 400) {
+                        layer.msg(data.msg, { icon: 5 });
+                    }
+
+                    if (data.code == 201) {
+                        layer.msg(data.msg, { icon: 5 });
+                    }
+                },
+                error: function (e) {
+                    console.log(e);
+                }
+
+            })
+        })
+    });
+
+
+    //选择分类
+    $('.fen').click(function () {
+        // alert(1111);
+        //获取id
+        var sid = $(this).attr('name');
+        // alert(sid);
+        $.ajax({
+            url: '/edit/index',
+            type: 'get',
+            data: { sid: sid },
+            success: function (data) {
+                layer.open({
+                    type: 1,
+                    title: '选择分类',
+                    skin: 'layui-layer-demo', //加上边框
+                    area: ['400px', '300px'], //宽高
+                    content: data
+                })
+                // console.log(data);
+            },
+            error: function (e) {
+                console.log(e);
+            }
+
+        })
+    });
+
+
+
+</script>
+
+{/block}

@@ -1,0 +1,448 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:101:"D:\wamp64\www\mb\wedding_platform\admin\moban\public/../application/admin\view\template\infoEdit.html";i:1553585487;}*/ ?>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>编辑模板主体</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=0">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <link rel="stylesheet" type="text/css" href="/static/moban/css/style.css">
+    <link rel="stylesheet" href="/static/moban/css/idangerous.swiper.css">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-container {
+        width: 375px;
+        height: 666px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .left_arrow {
+        position: absolute;
+        width: 28px;
+        height: 28px;
+        left: 5px;
+        top: 15px;
+        border-radius: 50%;
+        background: rgba(0, 0, 0, 0.5);
+    }
+.tijiao{
+    position: absolute;
+    right: 5px;
+    top:5px;
+}
+    .left_arrow img {
+        width: 80%;
+        height: 80%;
+        padding: 10%;
+
+    }
+
+    .arrow {
+
+    }
+
+    .horn {
+        position: absolute;
+        width: 36px;
+        height: 36px;
+        right: 5px;
+        top: 0;
+    }
+
+    .horn img {
+        width: 36px;
+        height: 36px;
+    }
+
+    .footer {
+        position: absolute;
+        width: 375px;
+        height: 40px;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        justify-content: space-around;
+        font-size: 12px;
+        background: white;
+        border-top: 1px solid gainsboro;
+        padding-left: 50px;
+    }
+
+    .footer div {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer div img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .send {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex: 0.6;
+        font-size: 16px;
+        color: white;
+        background: #F24345;
+    }
+
+    .submit {
+        width:140px;
+        height: 40px;
+        line-height: 40px;
+        background: deepskyblue;
+        color: white;
+        text-align: center;
+        border-radius: 5px;
+        font-size: 18px;
+        font-weight: 900;
+        border:none;
+    }
+
+    /*上传单图*/
+    .photo1 {
+        margin-top: 40px;
+    }
+
+    .photo2 {
+        margin-top: 25px;
+    }
+
+    .add {
+        width: 40px;
+        height: 40px;
+        background: pink;
+        border-radius: 50%;
+        position: absolute;
+        left: 45%;
+    }
+
+    .add img {
+        width: 20px;
+        height: 20px;
+        padding: 10px;
+    }
+
+    .add1 {
+        top: 30%;
+    }
+
+    .add2, .add4 {
+        top: 15%;
+    }
+
+    .add3, .add5 {
+        top: 69%;
+    }
+
+    .chooseImage {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        position: absolute;
+        left: 45%;
+        opacity: 0;
+
+    }
+
+    .chooseImage1 {
+        top: 30%;
+        background: greenyellow;
+    }
+
+    .chooseImage2 {
+        top: 15%;
+        background: yellow;
+    }
+
+    .chooseImage4 {
+        top: 15%;
+        background: yellow;
+    }
+
+    .chooseImage3 {
+        top: 69%;
+        background: pink;
+    }
+
+    .chooseImage5 {
+        top: 69%;
+        background: pink;
+    }
+
+    .chooseImage6 {
+        top: 30%;
+        background: greenyellow;
+    }
+
+    .cropedBigImg1, .cropedBigImg6 {
+        width: 300px;
+        height: 500px;
+        margin-left: 37px;
+        border: 0;
+    }
+
+    .cropedBigImg2, .cropedBigImg3 {
+        width: 300px;
+        height: 230px;
+        margin: 10px 37px;
+    }
+
+    .cropedBigImg4, .cropedBigImg5 {
+        width: 300px;
+        height: 230px;
+        margin: 10px 37px;
+    }
+
+    .swiper-slide{
+        height:667px;
+    }
+</style>
+<body>
+<div class="swiper-container">
+
+    <div class="swiper-wrapper">
+
+        <div class="swiper-slide head">
+            <form method="post" action="/template/editimg" enctype ="multipart/form-data">
+
+            <div class="info">
+
+                <div class="photo1">
+                        <div class="add add1">
+                            <img src="/static/moban/img/pic.png" alt="">
+                        </div>
+                            <input type="file" class="chooseImage chooseImage1" name="file[]" value="">
+                            <!-- 保存用户自定义的背景图片 -->
+                            <img class="cropedBigImg1" value='custom' data-address=''/>
+                    </div>
+            </div>
+
+
+        </div>
+        <div class="swiper-slide n2">
+            <div class="info">
+                <div class="photo2">
+                    <div class="add add2">
+                        <img src="/static/moban/img/pic.png" alt="">
+                    </div>
+
+                        <input type="file" class="chooseImage chooseImage2" name="file[]" value="">
+                        <!-- 保存用户自定义的背景图片 -->
+                        <img class="cropedBigImg2" value='custom' data-address=''/>
+
+                </div>
+
+                <div class="photo2">
+                    <div class="add add3">
+                        <img src="/static/moban/img/pic.png" alt="">
+                    </div>
+
+                        <input type="file" class="chooseImage chooseImage3" name="file[]" value="">
+                        <!-- 保存用户自定义的背景图片 -->
+                        <img class="cropedBigImg3" value='custom' data-address=''/>
+
+
+                </div>
+            </div>
+
+        </div>
+        <div class="swiper-slide n3">
+            <div class="info">
+                <div class="photo2">
+                    <div class="add add4">
+                        <img src="/static/moban/img/pic.png" alt="">
+                    </div>
+
+                        <input type="file" class="chooseImage chooseImage4" name="file[]" value="">
+                        <!-- 保存用户自定义的背景图片 -->
+                        <img class="cropedBigImg4" value='custom' data-address=''/>
+
+
+                </div>
+
+                <div class="photo2">
+                    <div class="add add5">
+                        <img src="/static/moban/img/pic.png" alt="">
+                    </div>
+
+                        <input type="file" class="chooseImage chooseImage5" name="file[]" value="">
+                        <!-- 保存用户自定义的背景图片 -->
+                        <img class="cropedBigImg5" value='custom' data-address=''/>
+
+
+                </div>
+
+
+            </div>
+        </div>
+        <div class="swiper-slide n4">
+            <div class="info">
+                <div class="photo1">
+                    <div class="add add1">
+                        <img src="/static/moban/img/pic.png" alt="">
+                    </div>
+
+                        <input type="file" class="chooseImage chooseImage6" name="file[]" value="">
+                        <!-- 保存用户自定义的背景图片 -->
+                        <img class="cropedBigImg6" value='custom' data-address=''/>
+
+                </div>
+                <input type="hidden" name="sid" value="<?php echo $sid; ?>">
+                <input type="hidden" name="pid" value="<?php echo $pid; ?>">
+                <input type="submit" class="submit" value="提交">
+
+            </div>
+
+
+        </div>
+
+        </form>
+    </div>
+
+
+
+
+    <div class="left_arrow">
+        <a href="javascript:window.history.back(-1)" target="_self">
+            <img src="/static/moban/img/left_arrow.png" alt="">
+        </a>
+    </div>
+    <div class="horn">
+        <audio src="/static/moban/mp3/bg.mp3" autoplay="autoplay" loop="loop">您的浏览器不支持 audio标签。</audio>
+        <img class="music on" src="/static/moban/img/on2.png" style="z-index:99;"/>
+    </div>
+
+    <div class="footer">
+        <div class="set">
+            <img src="/static/moban/img/music.png" alt="">
+            <span>设置</span>
+        </div>
+
+        <div class="send">
+            <img src="/static/moban/img/send.png" alt="">
+            <span>发送</span>
+
+
+        </div>
+    </div>
+    <div class="arrow"></div>
+</div>
+
+<script src="/static/moban/js/jquery-1.10.1.min.js"></script>
+<script src="/static/moban/js/idangerous.swiper.min.js"></script>
+<script type="text/javascript" src="/static/moban/js/script2.js"></script>
+<script src="/static/moban/js/upload.js"></script>
+<script type="text/javascript">
+    $(function () {
+// // 设置
+//         $(".set").click(function() {
+//             window.location.href ="edit/set.html"
+//         });
+        //上传
+        $('.chooseImage1').on('change', function () {
+            var filePath = $(this).val(), //获取到input的value，里面是文件的路径
+                fileFormat = filePath.substring(filePath.lastIndexOf(".")).toLowerCase(),
+                src = window.URL.createObjectURL(this.files[0]); //转成可以在本地预览的格式
+
+            // 检查是否是图片
+            if (!fileFormat.match(/.png|.jpg|.jpeg/)) {
+                error_prompt_alert('上传错误,文件格式必须为：png/jpg/jpeg');
+                return;
+            }
+
+            $('.cropedBigImg1').attr('src', src);
+        });
+
+        $('.chooseImage2').on('change', function () {
+            var filePath = $(this).val(), //获取到input的value，里面是文件的路径
+                fileFormat = filePath.substring(filePath.lastIndexOf(".")).toLowerCase(),
+                src = window.URL.createObjectURL(this.files[0]); //转成可以在本地预览的格式
+
+            // 检查是否是图片
+            if (!fileFormat.match(/.png|.jpg|.jpeg/)) {
+                error_prompt_alert('上传错误,文件格式必须为：png/jpg/jpeg');
+                return;
+            }
+
+            $('.cropedBigImg2').attr('src', src);
+        });
+
+        $('.chooseImage3').on('change', function () {
+            var filePath = $(this).val(), //获取到input的value，里面是文件的路径
+                fileFormat = filePath.substring(filePath.lastIndexOf(".")).toLowerCase(),
+                src = window.URL.createObjectURL(this.files[0]); //转成可以在本地预览的格式
+            // 检查是否是图片
+            if (!fileFormat.match(/.png|.jpg|.jpeg/)) {
+                error_prompt_alert('上传错误,文件格式必须为：png/jpg/jpeg');
+                return;
+            }
+            $('.cropedBigImg3').attr('src', src);
+        });
+
+        $('.chooseImage4').on('change', function () {
+            var filePath = $(this).val(), //获取到input的value，里面是文件的路径
+                fileFormat = filePath.substring(filePath.lastIndexOf(".")).toLowerCase(),
+                src = window.URL.createObjectURL(this.files[0]); //转成可以在本地预览的格式
+            // 检查是否是图片
+            if (!fileFormat.match(/.png|.jpg|.jpeg/)) {
+                error_prompt_alert('上传错误,文件格式必须为：png/jpg/jpeg');
+                return;
+            }
+            $('.cropedBigImg4').attr('src', src);
+        });
+
+        $('.chooseImage5').on('change', function () {
+            var filePath = $(this).val(), //获取到input的value，里面是文件的路径
+                fileFormat = filePath.substring(filePath.lastIndexOf(".")).toLowerCase(),
+                src = window.URL.createObjectURL(this.files[0]); //转成可以在本地预览的格式
+            // 检查是否是图片
+            if (!fileFormat.match(/.png|.jpg|.jpeg/)) {
+                error_prompt_alert('上传错误,文件格式必须为：png/jpg/jpeg');
+                return;
+            }
+            $('.cropedBigImg5').attr('src', src);
+        });
+
+        $('.chooseImage6').on('change', function () {
+            var filePath = $(this).val(), //获取到input的value，里面是文件的路径
+                fileFormat = filePath.substring(filePath.lastIndexOf(".")).toLowerCase(),
+                src = window.URL.createObjectURL(this.files[0]); //转成可以在本地预览的格式
+            // 检查是否是图片
+            if (!fileFormat.match(/.png|.jpg|.jpeg/)) {
+                error_prompt_alert('上传错误,文件格式必须为：png/jpg/jpeg');
+                return;
+            }
+            $('.cropedBigImg6').attr('src', src);
+        });
+
+
+    })
+
+
+</script>
+</body>
+</html>

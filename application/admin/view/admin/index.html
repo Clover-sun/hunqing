@@ -1,0 +1,81 @@
+{extend name="AdminPublic:public"}
+{block name="title"}后台管理{/block}
+{block name="aa"}
+<div class="panel panel-default">
+    <div class="panel-bd">
+        <div class="panel panel-primary">
+            <div class="panel-hd"></div>
+            <div class="panel-bd">
+                <section class="page-hd">
+                    <header>
+                        <h2 class="title" style="color:red">欢迎~超级管理员</h2>
+                        <p class="title-description">
+
+                        </p>
+                    </header>
+                    <hr>
+                </section>
+                <table class="table table-bordered table-striped mb-15" id="tableExcel">
+                    <thead>
+                    <tr>
+                        <th colspan="2" scope="col">网站服务器信息</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th width="30%">服务器计算机名</th>
+                        <th><span id="lbServerName">http://127.0.0.1/</span></th>
+                    </tr>
+                    <tr>
+                        <th>服务器IP地址</th>
+                        <th>{$sys_info.ip}</th>
+                    </tr>
+                    <tr>
+                        <th>服务器域名</th>
+                        <th>{$sys_info.domain}</th>
+                    </tr>
+                    <tr>
+                        <th>服务器端口</th>
+                        <th>80</th>
+                    </tr>
+                    <tr>
+                        <th>服务器操作系统</th>
+                        <th>{$sys_info.os}</th>
+                    </tr>
+                    <tr>
+                        <th>服务器脚本超时时间</th>
+                        <th>{$sys_info.max_ex_time}</th>
+                    </tr>
+                    <tr>
+                        <th>服务器的语言种类</th>
+                        <th>Chinese (People's Republic of China)</th>
+                    </tr>
+                    <tr>
+                        <th>php版本</th>
+                        <th>{$sys_info.phpv}</th>
+                    </tr>
+                    <tr>
+                        <th>服务器时区</th>
+                        <th>{$sys_info.timezone}</th>
+                    </tr>
+                    <tr>
+                        <th>服务器当前时间</th>
+                        <th>{$sys_info.time}</th>
+                    </tr>
+
+                    <tr>
+                        <th>CPU 总数</th>
+                        <th>4</th>
+                    </tr>
+                    <tr>
+                        <th>CPU 类型</th>
+                        <th>{$sys_info.php_uname}</th>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+{/block}

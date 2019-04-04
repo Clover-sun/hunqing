@@ -1,0 +1,3033 @@
+---------------------------------------------------------------
+[ 2019-03-19T17:58:23+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=17&sid=21
+[运行时间：0.045000s] [吞吐率：22.22req/s] [内存消耗：3,451.23kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '17',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\add.html [ array (
+  0 => 'list',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '17' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '17' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-19T17:58:59+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=17&sid=21
+[运行时间：0.062000s] [吞吐率：16.13req/s] [内存消耗：3,451.27kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '17',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\add.html [ array (
+  0 => 'list',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '17' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '17' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-19T17:59:31+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=17&sid=21
+[运行时间：0.053000s] [吞吐率：18.87req/s] [内存消耗：3,451.27kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '17',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\add.html [ array (
+  0 => 'list',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '17' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '17' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:01:49+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=17&sid=21
+[运行时间：0.069000s] [吞吐率：14.49req/s] [内存消耗：3,451.27kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '17',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\add.html [ array (
+  0 => 'list',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '17' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '17' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:02:20+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=17&sid=21
+[运行时间：0.062000s] [吞吐率：16.13req/s] [内存消耗：3,451.27kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '17',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\add.html [ array (
+  0 => 'list',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '17' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '17' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:02:20+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=17&sid=21
+[运行时间：0.062000s] [吞吐率：16.13req/s] [内存消耗：3,193.06kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '17',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\add.html [ array (
+  0 => 'list',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '17' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '17' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:02:21+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=17&sid=21
+[运行时间：0.040000s] [吞吐率：25.00req/s] [内存消耗：3,193.06kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '17',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\add.html [ array (
+  0 => 'list',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '17' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '17' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:02:21+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=17&sid=21
+[运行时间：0.049000s] [吞吐率：20.41req/s] [内存消耗：3,193.06kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '17',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\add.html [ array (
+  0 => 'list',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '17' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '17' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:02:22+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=17&sid=21
+[运行时间：0.048000s] [吞吐率：20.83req/s] [内存消耗：3,193.06kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '17',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\add.html [ array (
+  0 => 'list',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '17' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '17' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:02:22+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=17&sid=21
+[运行时间：0.057000s] [吞吐率：17.54req/s] [内存消耗：3,193.06kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '17',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\add.html [ array (
+  0 => 'list',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '17' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '17' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:02:23+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=17&sid=21
+[运行时间：0.061000s] [吞吐率：16.39req/s] [内存消耗：3,193.06kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '17',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\add.html [ array (
+  0 => 'list',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '17' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '17' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:02:35+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=17&sid=21
+[运行时间：0.058000s] [吞吐率：17.24req/s] [内存消耗：3,451.27kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '17',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\add.html [ array (
+  0 => 'list',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '17' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '17' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:02:37+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=17&sid=21
+[运行时间：0.041000s] [吞吐率：24.39req/s] [内存消耗：3,193.06kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '17',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\add.html [ array (
+  0 => 'list',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '17' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '17' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:03:16+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=17&sid=21
+[运行时间：0.060000s] [吞吐率：16.67req/s] [内存消耗：3,451.27kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '17',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\add.html [ array (
+  0 => 'list',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '17' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '17' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:03:36+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=17&sid=21
+[运行时间：0.059000s] [吞吐率：16.95req/s] [内存消耗：3,451.27kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '17',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\add.html [ array (
+  0 => 'list',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '17' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '17' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:05:46+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=17&sid=21
+[运行时间：0.066000s] [吞吐率：15.15req/s] [内存消耗：3,451.27kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '17',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\add.html [ array (
+  0 => 'list',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '17' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '17' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:06:02+08:00 ] 127.0.0.1 GET www.moban.com/tenant/index
+[运行时间：0.057000s] [吞吐率：17.54req/s] [内存消耗：3,412.99kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Tenant',
+    2 => 'getindex',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/edit/add?fid=17&sid=21',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Tenant->getindex[ D:\wamp64\www\moban\application\admin\controller\Tenant.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\tenant\index.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'k',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tenant` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tenant` WHERE  `name` LIKE '%%' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tenant` WHERE  `name` LIKE '%%' ORDER BY `id` ASC LIMIT 0,5 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:06:03+08:00 ] 127.0.0.1 GET www.moban.com/edit/index?sid=21
+[运行时间：0.053000s] [吞吐率：18.87req/s] [内存消耗：3,190.59kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getindex',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'sid' => '21',
+  'action' => 'index',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getindex[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\index.html [ array (
+  0 => 'cate',
+  1 => 'sid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:06:06+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=19&sid=21
+[运行时间：0.055600s] [吞吐率：17.99req/s] [内存消耗：3,194.63kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '19',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\add.html [ array (
+  0 => 'list',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '19' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '19' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:07:53+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=19&sid=21
+[运行时间：0.053000s] [吞吐率：18.87req/s] [内存消耗：3,194.70kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '19',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\add.html [ array (
+  0 => 'list',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '19' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '19' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:08:05+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=19&sid=21
+[运行时间：0.050000s] [吞吐率：20.00req/s] [内存消耗：3,194.70kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '19',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\add.html [ array (
+  0 => 'list',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '19' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '19' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:08:07+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=19&sid=21
+[运行时间：0.051000s] [吞吐率：19.61req/s] [内存消耗：3,194.70kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '19',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\add.html [ array (
+  0 => 'list',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '19' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '19' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:09:01+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=19&sid=21
+[运行时间：0.059000s] [吞吐率：16.95req/s] [内存消耗：3,452.41kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '19',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\add.html [ array (
+  0 => 'list',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '19' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '19' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:09:02+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=19&sid=21
+[运行时间：0.048000s] [吞吐率：20.83req/s] [内存消耗：3,194.70kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '19',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\add.html [ array (
+  0 => 'list',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '19' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '19' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:09:04+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=19&sid=21
+[运行时间：0.057000s] [吞吐率：17.54req/s] [内存消耗：3,195.02kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '19',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\add.html [ array (
+  0 => 'list',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '19' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '19' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:10:36+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=19&sid=21
+[运行时间：0.056000s] [吞吐率：17.86req/s] [内存消耗：3,452.66kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '19',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\add.html [ array (
+  0 => 'list',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '19' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '19' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:10:51+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=19&sid=21
+[运行时间：0.062000s] [吞吐率：16.13req/s] [内存消耗：3,452.66kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '19',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\add.html [ array (
+  0 => 'list',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '19' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '19' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:11:34+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=19&sid=21
+[运行时间：0.055000s] [吞吐率：18.18req/s] [内存消耗：3,194.70kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '19',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\add.html [ array (
+  0 => 'list',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '19' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '19' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:13:08+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=19&sid=21
+[运行时间：0.064000s] [吞吐率：15.62req/s] [内存消耗：3,452.74kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '19',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\add.html [ array (
+  0 => 'list',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '19' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '19' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:13:20+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=19&sid=21
+[运行时间：0.044000s] [吞吐率：22.73req/s] [内存消耗：3,194.63kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '19',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\add.html [ array (
+  0 => 'list',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '19' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '19' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:13:22+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=19&sid=21
+[运行时间：0.056000s] [吞吐率：17.86req/s] [内存消耗：3,194.63kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '19',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\add.html [ array (
+  0 => 'list',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '19' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '19' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:13:26+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=19&sid=21
+[运行时间：0.096000s] [吞吐率：10.42req/s] [内存消耗：3,194.63kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '19',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\add.html [ array (
+  0 => 'list',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '19' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '19' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:13:29+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=19&sid=21
+[运行时间：0.045000s] [吞吐率：22.22req/s] [内存消耗：3,194.63kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '19',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\add.html [ array (
+  0 => 'list',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '19' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '19' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:14:18+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=19&sid=21
+[运行时间：0.051000s] [吞吐率：19.61req/s] [内存消耗：3,452.74kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '19',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\add.html [ array (
+  0 => 'list',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '19' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '19' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:15:21+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=19&sid=21
+[运行时间：0.053000s] [吞吐率：18.87req/s] [内存消耗：3,452.74kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '19',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\add.html [ array (
+  0 => 'list',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '19' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '19' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:20:08+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=19&sid=21
+[运行时间：0.114000s] [吞吐率：8.77req/s] [内存消耗：3,309.91kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '19',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '19' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '19' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `show_template` [ RunTime:0.001000s ]
+[ error ] [0]数据表字段不存在:[fid][D:\wamp64\www\moban\thinkphp\library\think\db\Builder.php:115]
+---------------------------------------------------------------
+[ 2019-03-19T18:20:42+08:00 ] 127.0.0.1 GET www.moban.com/tenant/index
+[运行时间：0.061000s] [吞吐率：16.39req/s] [内存消耗：3,412.99kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Tenant',
+    2 => 'getindex',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/edit/add?fid=17&sid=21',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Tenant->getindex[ D:\wamp64\www\moban\application\admin\controller\Tenant.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\tenant\index.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'k',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tenant` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tenant` WHERE  `name` LIKE '%%' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tenant` WHERE  `name` LIKE '%%' ORDER BY `id` ASC LIMIT 0,5 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:20:44+08:00 ] 127.0.0.1 GET www.moban.com/edit/index?sid=21
+[运行时间：0.045000s] [吞吐率：22.22req/s] [内存消耗：3,191.96kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getindex',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'sid' => '21',
+  'action' => 'index',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getindex[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\index.html [ array (
+  0 => 'cate',
+  1 => 'sid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:20:45+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=17&sid=21
+[运行时间：0.064000s] [吞吐率：15.63req/s] [内存消耗：3,419.88kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '17',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\add.html [ array (
+  0 => 'list',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '17' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '17' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `show_template` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] INSERT INTO `show_template` (`sid` , `type`) VALUES (21 , 17) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:23:04+08:00 ] 127.0.0.1 GET www.moban.com/tenant/index
+[运行时间：0.068000s] [吞吐率：14.71req/s] [内存消耗：3,412.99kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Tenant',
+    2 => 'getindex',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/edit/add?fid=17&sid=21',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Tenant->getindex[ D:\wamp64\www\moban\application\admin\controller\Tenant.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\tenant\index.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'k',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tenant` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tenant` WHERE  `name` LIKE '%%' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tenant` WHERE  `name` LIKE '%%' ORDER BY `id` ASC LIMIT 0,5 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:23:05+08:00 ] 127.0.0.1 GET www.moban.com/edit/index?sid=21
+[运行时间：0.044600s] [吞吐率：22.42req/s] [内存消耗：3,191.96kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getindex',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'sid' => '21',
+  'action' => 'index',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getindex[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\index.html [ array (
+  0 => 'cate',
+  1 => 'sid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:23:09+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=19&sid=21
+[运行时间：0.047000s] [吞吐率：21.28req/s] [内存消耗：3,163.16kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '19',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\add.html [ array (
+  0 => 'list',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '19' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '19' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `show_template` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] INSERT INTO `show_template` (`sid` , `type`) VALUES (21 , 19) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:23:39+08:00 ] 127.0.0.1 GET www.moban.com/tenant/index
+[运行时间：0.049000s] [吞吐率：20.41req/s] [内存消耗：3,412.99kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Tenant',
+    2 => 'getindex',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/edit/add?fid=17&sid=21',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Tenant->getindex[ D:\wamp64\www\moban\application\admin\controller\Tenant.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\tenant\index.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'k',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tenant` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tenant` WHERE  `name` LIKE '%%' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tenant` WHERE  `name` LIKE '%%' ORDER BY `id` ASC LIMIT 0,5 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:23:40+08:00 ] 127.0.0.1 GET www.moban.com/edit/index?sid=21
+[运行时间：0.048200s] [吞吐率：20.75req/s] [内存消耗：3,191.96kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getindex',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'sid' => '21',
+  'action' => 'index',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getindex[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\index.html [ array (
+  0 => 'cate',
+  1 => 'sid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:23:49+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=19&sid=21
+[运行时间：0.047600s] [吞吐率：21.01req/s] [内存消耗：3,163.16kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '19',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\add.html [ array (
+  0 => 'list',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '19' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '19' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `show_template` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `show_template` (`sid` , `type`) VALUES (21 , 19) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:25:34+08:00 ] 127.0.0.1 GET www.moban.com/tenant/index
+[运行时间：0.055000s] [吞吐率：18.18req/s] [内存消耗：3,412.99kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Tenant',
+    2 => 'getindex',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/edit/add?fid=17&sid=21',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Tenant->getindex[ D:\wamp64\www\moban\application\admin\controller\Tenant.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\tenant\index.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'k',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tenant` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tenant` WHERE  `name` LIKE '%%' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tenant` WHERE  `name` LIKE '%%' ORDER BY `id` ASC LIMIT 0,5 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:25:38+08:00 ] 127.0.0.1 GET www.moban.com/edit/index?sid=21
+[运行时间：0.052800s] [吞吐率：18.94req/s] [内存消耗：3,191.96kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getindex',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'sid' => '21',
+  'action' => 'index',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getindex[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\index.html [ array (
+  0 => 'cate',
+  1 => 'sid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:25:41+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=17&sid=21
+[运行时间：0.054600s] [吞吐率：18.32req/s] [内存消耗：3,161.84kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '17',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\add.html [ array (
+  0 => 'list',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '17' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '17' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `show_template` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] INSERT INTO `show_template` (`sid` , `type`) VALUES (21 , 17) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:27:49+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=17&sid=21
+[运行时间：0.068000s] [吞吐率：14.71req/s] [内存消耗：3,299.96kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '17',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '17' LIMIT 1 [ RunTime:0.002000s ]
+[ error ] [8]未定义变量: template[D:\wamp64\www\moban\application\admin\controller\Edit.php:60]
+---------------------------------------------------------------
+[ 2019-03-19T18:28:17+08:00 ] 127.0.0.1 GET www.moban.com/tenant/index
+[运行时间：0.131000s] [吞吐率：7.63req/s] [内存消耗：3,412.99kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Tenant',
+    2 => 'getindex',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/edit/add?fid=17&sid=21',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Tenant->getindex[ D:\wamp64\www\moban\application\admin\controller\Tenant.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\tenant\index.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'k',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tenant` [ RunTime:0.071000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tenant` WHERE  `name` LIKE '%%' LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `tenant` WHERE  `name` LIKE '%%' ORDER BY `id` ASC LIMIT 0,5 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:28:18+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=17&sid=21
+[运行时间：0.074000s] [吞吐率：13.51req/s] [内存消耗：3,299.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '17',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '17' LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [8]未定义变量: template[D:\wamp64\www\moban\application\admin\controller\Edit.php:60]
+---------------------------------------------------------------
+[ 2019-03-19T18:28:20+08:00 ] 127.0.0.1 GET www.moban.com/tenant/index
+[运行时间：0.123000s] [吞吐率：8.13req/s] [内存消耗：3,412.99kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Tenant',
+    2 => 'getindex',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/edit/add?fid=17&sid=21',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Tenant->getindex[ D:\wamp64\www\moban\application\admin\controller\Tenant.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\tenant\index.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'k',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.070000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tenant` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tenant` WHERE  `name` LIKE '%%' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tenant` WHERE  `name` LIKE '%%' ORDER BY `id` ASC LIMIT 0,5 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:28:22+08:00 ] 127.0.0.1 GET www.moban.com/edit/index?sid=21
+[运行时间：0.054000s] [吞吐率：18.52req/s] [内存消耗：3,190.63kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getindex',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'sid' => '21',
+  'action' => 'index',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getindex[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\index.html [ array (
+  0 => 'cate',
+  1 => 'sid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:29:09+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=17&sid=21
+[运行时间：0.046000s] [吞吐率：21.74req/s] [内存消耗：3,161.84kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '17',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\add.html [ array (
+  0 => 'list',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '17' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '17' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `show_template` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] INSERT INTO `show_template` (`sid` , `type`) VALUES (21 , 17) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:31:00+08:00 ] 127.0.0.1 GET www.moban.com/tenant/index
+[运行时间：0.061000s] [吞吐率：16.39req/s] [内存消耗：3,412.99kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Tenant',
+    2 => 'getindex',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/edit/add?fid=17&sid=21',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Tenant->getindex[ D:\wamp64\www\moban\application\admin\controller\Tenant.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\tenant\index.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'k',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tenant` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tenant` WHERE  `name` LIKE '%%' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tenant` WHERE  `name` LIKE '%%' ORDER BY `id` ASC LIMIT 0,5 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:31:01+08:00 ] 127.0.0.1 GET www.moban.com/edit/index?sid=21
+[运行时间：0.045600s] [吞吐率：21.93req/s] [内存消耗：3,191.96kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getindex',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'sid' => '21',
+  'action' => 'index',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getindex[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\index.html [ array (
+  0 => 'cate',
+  1 => 'sid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:31:03+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=6&sid=21
+[运行时间：0.053000s] [吞吐率：18.87req/s] [内存消耗：3,189.07kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '6',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '6' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:31:05+08:00 ] 127.0.0.1 GET www.moban.com/tenant/index
+[运行时间：0.071600s] [吞吐率：13.97req/s] [内存消耗：3,412.99kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Tenant',
+    2 => 'getindex',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/edit/add?fid=17&sid=21',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Tenant->getindex[ D:\wamp64\www\moban\application\admin\controller\Tenant.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\tenant\index.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'k',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tenant` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tenant` WHERE  `name` LIKE '%%' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tenant` WHERE  `name` LIKE '%%' ORDER BY `id` ASC LIMIT 0,5 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:31:07+08:00 ] 127.0.0.1 GET www.moban.com/edit/index?sid=21
+[运行时间：0.061600s] [吞吐率：16.23req/s] [内存消耗：3,191.96kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getindex',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'sid' => '21',
+  'action' => 'index',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getindex[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\index.html [ array (
+  0 => 'cate',
+  1 => 'sid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:31:08+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=17&sid=21
+[运行时间：0.046000s] [吞吐率：21.74req/s] [内存消耗：3,161.84kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '17',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\add.html [ array (
+  0 => 'list',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '17' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '17' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `show_template` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] INSERT INTO `show_template` (`sid` , `type`) VALUES (21 , 17) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:31:10+08:00 ] 127.0.0.1 GET www.moban.com/tenant/index
+[运行时间：0.048000s] [吞吐率：20.83req/s] [内存消耗：3,412.99kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Tenant',
+    2 => 'getindex',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/edit/add?fid=17&sid=21',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Tenant->getindex[ D:\wamp64\www\moban\application\admin\controller\Tenant.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\tenant\index.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'k',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tenant` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tenant` WHERE  `name` LIKE '%%' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tenant` WHERE  `name` LIKE '%%' ORDER BY `id` ASC LIMIT 0,5 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:31:10+08:00 ] 127.0.0.1 GET www.moban.com/edit/index?sid=21
+[运行时间：0.056000s] [吞吐率：17.86req/s] [内存消耗：3,191.96kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getindex',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'sid' => '21',
+  'action' => 'index',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getindex[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\index.html [ array (
+  0 => 'cate',
+  1 => 'sid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-19T18:31:13+08:00 ] 127.0.0.1 GET www.moban.com/edit/add?fid=19&sid=21
+[运行时间：0.050000s] [吞吐率：20.00req/s] [内存消耗：3,163.16kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp64\www\moban\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Edit',
+    2 => 'getadd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.moban.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.moban.com/tenant/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=1jlaruflcamqel00gotm5r23k3',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '19',
+  'sid' => '21',
+  'action' => 'add',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Edit->getadd[ D:\wamp64\www\moban\application\admin\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\moban\public/../application/admin\view\edit\add.html [ array (
+  0 => 'list',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=moban;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `template` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT `cates` FROM `template` WHERE  `type` = '19' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `template` WHERE  `type` = '19' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `show_template` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] INSERT INTO `show_template` (`sid` , `type`) VALUES (21 , 19) [ RunTime:0.000000s ]

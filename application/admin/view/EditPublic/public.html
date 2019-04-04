@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{block name="title"}{/block}</title>
+    <meta name="keywords" content="设置关键词..."/>
+    <meta name="description" content="设置描述..."/>
+    <meta name="author" content="DeathGhost"/>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <link rel="stylesheet" href="/static/moban/css/choose_template.css">
+    <link rel="stylesheet" href="/static/moban/css/danmu.css">
+    <link rel="stylesheet" href="/static/moban/css/idangerous.swiper.css">
+    <link rel="stylesheet" href="/static/moban/css/style.css">
+    <script src="/static/moban/js/danmu.js"></script>
+    <script src="/static/moban/js/data.js"></script>
+    <script src="/static/moban/js/idangerous.swiper.min.js"></script>
+    <script src="/static/moban/js/jquery.date.js"></script>
+    <script src="/static/moban/js/jquery-1.10.1.min.js"></script>
+    <script src="/static/moban/js/script.js"></script>
+    <script src="/static/moban/js/script2.js"></script>
+    <script src="/static/moban/js/upload.js"></script>
+</head>
+<body>
+<div class="title">
+    <a href="javascript:window.history.back(-1)" target="_self">
+        <img src="../img/leftarrow2.png" alt="">
+    </a>添加新页
+</div>
+<div class="wrap">
+    <div class="tabs">
+        <a href="#" hidefocus="true" class="active">单图</a>
+        <a href="#" hidefocus="true">二图</a>
+        <a href="#" hidefocus="true">多图</a>
+        <a href="#" hidefocus="true">纯文字</a>
+
+    </div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="content-slide">
+                    <ul>
+                        <li><img src="/static/moban/img/8-2.png" alt=""></li>
+                        <li><img src="/static/moban/img/8-2.png" alt=""></li>
+                        <li><img src="../img/8-2.png" alt=""></li>
+                        <li><img src="../img/8-2.png" alt=""></li>
+                        <li><img src="../img/8-2.png" alt=""></li>
+                        <li><img src="../img/8-2.png" alt=""></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="content-slide">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="content-slide">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="content-slide">
+                </div>
+            </div>
+        </div>
+    </div>
+    {block name="aa"}
+    {/block}
+</div>
+</body>
+<script>
+    var tabsSwiper = new Swiper('.swiper-container',{
+        speed:500,
+        onSlideChangeStart: function(){
+            $(".tabs .active").removeClass('active');
+            $(".tabs a").eq(tabsSwiper.activeIndex).addClass('active');
+        }
+    });
+
+    $(".tabs a").on('touchstart mousedown',function(e){
+        e.preventDefault()
+        $(".tabs .active").removeClass('active');
+        $(this).addClass('active');
+        tabsSwiper.swipeTo($(this).index());
+    });
+
+    $(".tabs a").click(function(e){
+        e.preventDefault();
+    });
+</script>
+</html>

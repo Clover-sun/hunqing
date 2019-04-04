@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>选择模板</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=0">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+	<link rel="stylesheet" href="../css/choose_template.css">
+</head>
+<body>
+<div class="wrap">
+    <div class="tabs">
+        <a href="#" hidefocus="true" class="active">婚礼</a>
+        <a href="#" hidefocus="true">儿童</a>
+    </div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="content-slide">
+                    <ul>
+                        <li><img src="../img/8-2.png" alt=""></li>
+                        <li><img src="../img/8-2.png" alt=""></li>
+                        <li><img src="../img/8-2.png" alt=""></li>
+                        <li><img src="../img/8-2.png" alt=""></li>
+                        <li><img src="../img/8-2.png" alt=""></li>
+                        <li><img src="../img/8-2.png" alt=""></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="content-slide">
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+<script src="../js/jquery-1.10.1.min.js"></script>
+<script src="http://www.lanrenzhijia.com/ajaxjs/idangerous.swiper.min.js"></script>
+<script>
+    var tabsSwiper = new Swiper('.swiper-container',{
+        speed:500,
+        onSlideChangeStart: function(){
+            $(".tabs .active").removeClass('active');
+            $(".tabs a").eq(tabsSwiper.activeIndex).addClass('active');
+        }
+    });
+
+    $(".tabs a").on('touchstart mousedown',function(e){
+        e.preventDefault()
+        $(".tabs .active").removeClass('active');
+        $(this).addClass('active');
+        tabsSwiper.swipeTo($(this).index());
+    });
+
+    $(".tabs a").click(function(e){
+        e.preventDefault();
+    });
+</script>
+</html>

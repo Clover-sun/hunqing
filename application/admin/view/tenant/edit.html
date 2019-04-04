@@ -1,0 +1,122 @@
+<div class="panel panel-default">
+    <div class="panel-bd">
+        <div class="panel panel-primary">
+            <div class="panel-hd"></div>
+            <div class="panel-bd">
+                <div class="page-wrap">
+                    <section class="page-hd">
+                        <header>
+                            <h2 class="title">管理员修改</h2>
+                        </header>
+                        <hr>
+                    </section>
+
+                    <form id="formData">
+                        <div class="form-group-col-2">
+                            <div class="form-label">管理员：</div>
+                            <div class="form-cont">
+                                <input type="text" placeholder="管理员" class="form-control form-boxed" name="name" value="{$info['name']}" id="name">
+                                <span class="span"></span>
+                            </div>
+                        </div>
+                        <div class="form-group-col-2">
+                            <div class="form-label">手机号码：</div>
+                            <div class="form-cont">
+                                <input type="text" placeholder="手机号码" class="form-control form-boxed" name="phone" value="{$info['phone']}" id="phone">
+                                <span class="span"></span>
+                            </div>
+                        </div>
+                        <div class="form-group-col-2">
+                            <div class="form-label">电子邮箱：</div>
+                            <div class="form-cont">
+                                <input type="text" placeholder="电子邮箱" class="form-control form-boxed" name="email" value="{$info['email']}" id="email">
+                                <span class="span"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group-col-2">
+                            <div class="form-label"></div>
+                            <div class="form-cont">
+                                <input type="hidden" name="id" value="{$info['id']}">
+                                <input type="submit" class="btn btn-primary" id="submit" value="提交表单" />
+
+                            </div>
+                        </div>
+                        <!--开始::结束-->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+$("#submit").click(function(){
+        //name
+        var name = $("#name").val();
+        //phone
+        var phone = $("#phone").val();
+        //email
+        var email = $("#email").val();
+        // alert(name);
+        if(name == ''){
+            layer.msg('管理员名不能为空', { icon: 5 });
+            return false;
+        }
+
+        if(phone == ''){
+            layer.msg('手机号不能为空', { icon: 5 });
+            return false;
+        }
+
+        if(email == ''){
+            layer.msg('邮箱不能为空', { icon: 5 });
+            return false;
+        }
+        
+
+        //声明一个对象
+        var data = {};
+        //获取form下的值
+        var t = $('#formData').serializeArray();
+        // console.log(t);
+        //遍历添加到对象中
+        $.each(t, function () {
+            data[this.name] = this.value;
+        });
+
+        // //把对象转换成json
+        var datas = JSON.stringify(data);
+
+        // console.log(datas);
+       
+
+        $.ajax({
+            url: '/adminuser/update',
+            type: 'post',
+            data: {data:datas},
+            success:function(data){
+               //console.log(data.msg);
+                if(data.code == 400){
+                    layer.msg(data.msg, { icon: 5 });
+                }
+
+                if(data.code == 200){
+                    layer.msg(data.msg, { icon: 6 ,time:900});
+                    // location.href = '/adminuser/index';
+                    setTimeout("location.href='/adminuser/index';", 1000); 
+                }
+
+                if(data.code == 201){
+                    layer.msg(data.msg, { icon: 5 });
+                }
+            },
+            error:function(e){
+                alert(e);
+            }
+        })
+
+
+        return false;
+
+})
+</script>

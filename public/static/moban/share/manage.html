@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>宾客管理</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=0">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+	<style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        li {
+            list-style: none;
+        }
+        .title {
+            color: white;
+            background:deepskyblue;
+            padding: 10px 0;
+            text-align: center;
+            font-size:20px;
+        }
+
+        .title img {
+            width: 26px;
+            height: 26px;
+            position: absolute;
+            left: 3%;
+        }
+        ul {
+            width: 100%;
+        }
+em{
+    font-style:normal;
+}
+        li {
+            width:60%;
+            height:20px;
+            padding:15px 0;
+            text-align:center;
+            margin:20px auto;
+            color:grey;
+            border-bottom:1px solid silver;
+        }
+p{
+    text-align:center;
+    color:red;
+position:relative;
+    top:50px;
+
+}
+
+    </style>
+</head>
+<body>
+<div class="title">
+    <a href="javascript:window.history.back(-1)" target="_self">
+        <img src="../img/leftarrow2.png" alt="">
+    </a>宾客管理
+</div>
+<ul>
+    <li class="person"><em> < </em><span>宾客统计管理</span><em> > </em></li>
+    <li class="bless"><em> < </em><span>宾客祝福管理</span><em> > </em></li>
+
+</ul>
+<p>用户点击设置输入ID,查看宾客登记和祝福语</p>
+</body>
+<script src="../js/jquery-1.10.1.min.js"></script>
+<script>
+    $(function () {
+        // 修改
+        $(".person").click(function () {
+            window.location.href = "person.html"
+        });
+        $(".bless").click(function () {
+            window.location.href = "bless.html"
+        })
+    })
+</script>
+</html>

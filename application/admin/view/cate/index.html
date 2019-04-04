@@ -1,0 +1,180 @@
+{extend name="AdminPublic:public"}
+{block name="title"}商户管理{/block}
+{block name="aa"}
+
+<style>
+    ul.pagination {
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+    }
+
+    ul.pagination li {
+        display: inline;
+    }
+
+
+    .bar1 input {
+        border: 1px solid rgb(240, 240, 245);
+        width: 90%;
+        height: 35px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+
+</style>
+
+
+<div class="panel panel-default">
+    <div class="panel-bd">
+        <div class="panel panel-primary">
+            <div class="panel-hd"></div>
+            <div class="panel-bd">
+
+                <section class="page-hd">
+                    <header>
+                        <h2 class="title">模板分类管理</h2>
+                        <p class="title-description">
+                            <!--<a href="add.html"><button class="btn btn-warning add">添加模板分类</button></a>-->
+                            <button class="btn btn-warning add">添加模板分类</button>
+                        </p>
+                    </header>
+                    <hr>
+                </section>
+
+                <!--<div class="search bar1">-->
+                <!--<form action="/cate/index" method="get">-->
+                <!--<input type="text" placeholder="请输入模板分类名" name="k" value="">-->
+                <!--<button type="submit" class="btn btn-primary-outline xx">搜索</button>-->
+                <!--</form>-->
+                <!--</div>-->
+
+                <table class="table table-bordered table-striped mb-15" id="tableExcel">
+                    <thead>
+
+
+                    <tr>
+                        <th>id</th>
+                        <th>模板分类名称</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {volist name='list' id='vo'}
+                    <tr class="cen">
+                        <td>{$a++}</td>
+                        <td>{$vo.cate}</td>
+                        <td>
+                            <!--<a href="/cate/edit?id={$vo.id}">-->
+                                <!--<button class="btn btn-primary edit" name="">编辑</button>-->
+                            <!--</a>-->
+
+                                <button class="btn btn-primary edit" name="{$vo.id}">编辑</button>
+
+                            <!--<a href="/cate/delete?id={$vo.id}">-->
+                            <!--<button class="btn btn-danger del" name="" value="{$vo.id}">删除</button>-->
+                            <!--</a>-->
+
+                                <button class="btn btn-danger del" name="{$vo.id}">删除</button>
+
+                        </td>
+                    </tr>
+                    {/volist}
+
+                    </tbody>
+                </table>
+                <div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    //添加模板分类
+    $(".add").click(function () {
+        $.get('/cate/add', function (data) {
+            layer.open({
+                type: 1,
+                title: '添加模板分类',
+                shadeClose: true,//点击阴影处关闭
+                skin: 'layui-layer-demo', //加上边框
+                area: ['500px', '350px'], //宽高
+                content: data
+
+
+            });
+        })
+    });
+    //编辑
+    $(".edit").click(function () {
+        var id = $(this).attr('name');
+        $.ajax({
+            url:'/cate/edit',
+            type: 'get',
+            data:{id:id},
+            success:function(data){
+                layer.open({
+                    type:1,
+                    title: '编辑模板',
+                    shadeClose: true,//点击阴影处关闭
+                    skin: 'layui-layer-demo', //加上边框
+                    area: ['25%', '39%'], //宽高
+                    content: data
+                });
+            }
+        })
+
+    });
+
+
+    //删除
+    $(".del").click(function () {
+        // 获取id
+        var id = $(this).attr('name');
+        // 获取本条tr
+        ss = $(this).parents('tr');
+        layer.confirm('你确定要删除吗', ['删除', '取消'], function () {
+            $.get('/cate/delete', { id: id }, function (data) {
+
+                if (data.code == 200) {
+                    // ss.remove();
+                    ss.remove();
+                    layer.msg(data.message, {icon: 6});
+                }
+
+                if (data.code == 408) {
+
+                    layer.msg(data.message, {icon: 5});
+                }
+            })
+        });
+    });
+
+
+    //添加管理员
+    // $('.add').click(function () {
+    //     $.get('/template/add', {}, function (data) {
+    //
+    //
+    //         layer.open({
+    //             type: 1,
+    //             title: '添加管理员',
+    //             skin: 'layui-layer-demo', //加上边框
+    //             area: ['45%', '90%'], //宽高
+    //             content: data
+    //         });
+    //
+    //     });
+    // });
+
+
+
+
+</script>
+
+
+{/block}
